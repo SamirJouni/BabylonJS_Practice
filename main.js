@@ -20,10 +20,6 @@ window.addEventListener("DOMContentLoaded", function () {
 		material.diffuseTexture = new BABYLON.Texture("txtr.jpg", scene);
 		material.bumpTexture = new BABYLON.Texture("nrml.png", scene);
 		material.roughness = 0.5;
-		// material.diffuseColor = new BABYLON.Color3.Blue();
-		// material.emissiveColor = new BABYLON.Color3.Green();
-		// material.specularColor = new BABYLON.Color3.Green();
-		// material.alpha = 0.5;
 		box.material = material;
 
 
@@ -35,6 +31,11 @@ window.addEventListener("DOMContentLoaded", function () {
 		scene.render();
 	});
 });
+
+// material.diffuseColor = new BABYLON.Color3.Blue();
+// material.emissiveColor = new BABYLON.Color3.Green();
+// material.specularColor = new BABYLON.Color3.Green();
+// material.alpha = 0.5;
 
 // var material = scene.getMeshByName("Box").material;
 // material.alpha -= 0.01;
